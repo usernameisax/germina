@@ -1,0 +1,30 @@
+body {
+	background-image: url(images/background);
+	background-size: cover;
+}
+
+.wrapper {
+	display: flex;  
+	flex-flow: row wrap;
+	font-weight: bold;
+	text-align: center;
+}
+  
+.wrapper > * {
+	padding: 10px;
+	flex: 1 100%;
+}
+
+.title {
+	font-size: 80pt;
+}
+
+.subtitle {
+	font-size: 50pt;
+}
+
+.login {
+	padding: 10px;
+	flex: 1 100%;
+	font-size: 50pt;
+}
